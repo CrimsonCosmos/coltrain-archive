@@ -1,0 +1,41 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Large data files
+*.npy
+*.npy.tmp*
+
+# Checkpoints (too large for git)
+checkpoints_pretrain/
+checkpoints_finetune/
+checkpoints/
+
+# Generated MIDI samples (keep notable ones tracked explicitly)
+gen_*.mid
+generated_*.mid
+test_*.mid
+amt_*.mid
+jazz_*.mid
+
+# Colab/Kaggle uploads (contain zips)
+colab_upload/
+kaggle_upload/
+
+# AMT experiments
+amt_data/
+anticipation/
+colab_upload_amt/
+
+# Soundfonts
+soundfonts/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
