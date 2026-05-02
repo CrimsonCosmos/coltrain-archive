@@ -4,7 +4,7 @@ Pre-tokenize jazz MIDI dataset with MidiTok TSD -> numpy .npy for cloud training
 
 Usage:
     python pretokenize_miditok.py \
-        --input_dir /Users/dylangehl/augmented_dataset_v2 \
+        --input_dir ~/augmented_dataset_v2 \
         --output jazz_miditok.npy \
         --seq_len 1536 \
         --stride 768

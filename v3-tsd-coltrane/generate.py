@@ -445,13 +445,13 @@ Examples:
   python generate.py --measures 150 --tempo 90 --output ballad.mid
 
   # Use original (non-augmented) dataset
-  python generate.py --midi-dir /Users/dylangehl/midi_dataset
+  python generate.py --midi-dir ~/midi_dataset
         """
     )
 
     parser.add_argument(
         '--midi-dir',
-        default='/Users/dylangehl/augmented_dataset',
+        default='~/augmented_dataset',
         help='Training MIDI directory'
     )
     parser.add_argument(

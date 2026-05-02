@@ -35,7 +35,7 @@ events = generate(model, start_time=0, end_time=30, top_p=0.98)
 print(f"\nGenerated {len(events)//3} events")
 
 # Convert to MIDI
-output_path = "/Users/dylangehl/coltrain/amt_pretrained_sample.mid"
+output_path = "~/coltrain/amt_pretrained_sample.mid"
 mid = events_to_midi(events)
 mid.save(output_path)
 print(f"Saved to: {output_path}")

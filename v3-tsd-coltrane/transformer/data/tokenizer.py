@@ -251,9 +251,9 @@ def test_tokenizer():
 
     tok = MIDITokenizer()
 
-    test_file = "/Users/dylangehl/augmented_dataset/SoulEyes#p3.mid"
+    test_file = "~/augmented_dataset/SoulEyes#p3.mid"
     if not Path(test_file).exists():
-        test_file = "/Users/dylangehl/coltrain/examples/strict_32bar.mid"
+        test_file = "~/coltrain/examples/strict_32bar.mid"
 
     if Path(test_file).exists():
         tokens = tok.tokenize_midi(test_file)
@@ -287,7 +287,7 @@ def test_tokenizer():
         print(f"  2x more music fits in context window!")
 
         # Round-trip
-        tok.detokenize_to_midi(tokens, "/Users/dylangehl/coltrain/test_compound.mid")
+        tok.detokenize_to_midi(tokens, "~/coltrain/test_compound.mid")
         print("\nRound-trip test passed!")
 
 

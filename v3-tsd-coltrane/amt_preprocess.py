@@ -9,8 +9,8 @@ from anticipation.convert import midi_to_events
 from anticipation.vocab import TIME_OFFSET, DUR_OFFSET, NOTE_OFFSET, SEPARATOR, AUTOREGRESS
 from anticipation.config import CONTEXT_SIZE, EVENT_SIZE, MAX_PITCH
 
-MIDI_DIR = "/Users/dylangehl/augmented_dataset"
-OUTPUT_DIR = "/Users/dylangehl/coltrain/amt_data"
+MIDI_DIR = "~/augmented_dataset"
+OUTPUT_DIR = "~/coltrain/amt_data"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

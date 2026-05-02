@@ -242,7 +242,7 @@ if __name__ == '__main__':
     from data.tokenizer import MIDITokenizer
 
     tokenizer = MIDITokenizer()
-    midi_dir = "/Users/dylangehl/augmented_dataset"
+    midi_dir = "~/augmented_dataset"
 
     if not Path(midi_dir).exists():
         print(f"Directory not found: {midi_dir}")

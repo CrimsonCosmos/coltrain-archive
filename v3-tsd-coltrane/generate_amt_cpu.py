@@ -29,7 +29,7 @@ n_events = len(events) // 3
 print(f"\nGenerated {n_events} events")
 
 if n_events > 0:
-    output_path = "/Users/dylangehl/coltrain/amt_medium_cpu.mid"
+    output_path = "~/coltrain/amt_medium_cpu.mid"
     mid = events_to_midi(events)
     mid.save(output_path)
     print(f"Saved to: {output_path}")

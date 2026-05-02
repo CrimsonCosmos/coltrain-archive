@@ -4,7 +4,7 @@ Pre-tokenize jazz MIDI dataset in track-sequential format for v3 training.
 
 Usage:
     python -u pretokenize_v3.py \
-        --input_dir /Users/dylangehl/augmented_dataset_v2 \
+        --input_dir ~/augmented_dataset_v2 \
         --output jazz_v3.npy \
         --seq_len 1024 \
         --stride 512

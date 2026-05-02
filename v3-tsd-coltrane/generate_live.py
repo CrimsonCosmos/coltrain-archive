@@ -145,7 +145,7 @@ Examples:
 
     parser.add_argument(
         '--midi-dir',
-        default='/Users/dylangehl/augmented_dataset',
+        default='~/augmented_dataset',
         help='Training MIDI directory'
     )
     parser.add_argument(

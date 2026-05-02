@@ -7,7 +7,7 @@ One command to generate jazz with learned rhythms and harmonic coordination.
 ## ⚡️ Generate Jazz Now
 
 ```bash
-cd /Users/dylangehl/coltrain
+cd ~/coltrain
 source venv/bin/activate
 python generate.py --measures 150 --tempo 120
 open coltrain_jazz.mid

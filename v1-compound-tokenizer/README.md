@@ -26,7 +26,7 @@ Coltrain generates complete jazz compositions with multiple coordinated instrume
 ## 🚀 Quick Start
 
 ```bash
-cd /Users/dylangehl/coltrain
+cd ~/coltrain
 source venv/bin/activate
 
 # Generate 6-minute jazz piece
@@ -75,7 +75,7 @@ python generate.py --measures 150 --tempo 90 --output ballad.mid
 
 **Use Original Dataset:**
 ```bash
-python generate.py --midi-dir /Users/dylangehl/midi_dataset
+python generate.py --midi-dir ~/midi_dataset
 ```
 
 ---
@@ -229,12 +229,12 @@ Coltrain is practical but has constraints:
 Coltrain works with two datasets:
 
 ### Original Dataset
-- **Location:** `/Users/dylangehl/midi_dataset`
+- **Location:** `~/midi_dataset`
 - **Files:** 104 jazz MIDI standards
 - **Use when:** You want patterns closer to specific songs
 
 ### Augmented Dataset (Recommended)
-- **Location:** `/Users/dylangehl/augmented_dataset`
+- **Location:** `~/augmented_dataset`
 - **Files:** 1,353 (104 × 13 transpositions)
 - **Benefits:** 2x more patterns, all 12 keys, lower overfitting
 - **Use when:** You want more variety and generalization
@@ -260,7 +260,7 @@ Result: Technically coherent jazz that maintains harmonic and rhythmic interest.
 ## 🎯 Example Session
 
 ```bash
-cd /Users/dylangehl/coltrain
+cd ~/coltrain
 source venv/bin/activate
 
 # Generate 3 variations
@@ -327,8 +327,8 @@ python generate.py --measures 150 --tempo 120
 
 **No training data found:**
 ```bash
-ls /Users/dylangehl/augmented_dataset/*.mid
-# If empty, check /Users/dylangehl/midi_dataset
+ls ~/augmented_dataset/*.mid
+# If empty, check ~/midi_dataset
 ```
 
 **Generated music sounds random:**

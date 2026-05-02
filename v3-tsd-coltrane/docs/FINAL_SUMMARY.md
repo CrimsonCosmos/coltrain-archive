@@ -59,7 +59,7 @@
 ## 🚀 **Generate Your Own**
 
 ```bash
-cd /Users/dylangehl/magenta-jazz
+cd ~/magenta-jazz
 source venv/bin/activate
 
 # 6+ minute coordinated jazz
@@ -73,7 +73,7 @@ python advanced_jazz_generator.py --measures 150 --tempo 90 --output ballad.mid
 
 # Different training data
 python advanced_jazz_generator.py \
-  --midi-dir /Users/dylangehl/midi_dataset \
+  --midi-dir ~/midi_dataset \
   --measures 150 \
   --tempo 120
 ```
@@ -240,7 +240,7 @@ Even the new generator has limits:
 
 ```bash
 python advanced_jazz_generator.py \
-  --midi-dir /Users/dylangehl/augmented_dataset \
+  --midi-dir ~/augmented_dataset \
   --measures 150 \
   --tempo 120 \
   --output final_jazz.mid

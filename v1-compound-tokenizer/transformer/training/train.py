@@ -302,7 +302,7 @@ def main():
 
     CONFIG = {
         # Data
-        'midi_dir': '/Users/dylangehl/augmented_dataset',
+        'midi_dir': '~/augmented_dataset',
         'seq_len': 1024,
         'batch_size': 8,
         'num_workers': 4,

@@ -81,7 +81,7 @@ optimizer.step()  # Learn!
 
 ```bash
 # Train transformer (10 epochs, ~2-4 hours on M4)
-cd /Users/dylangehl/coltrain/transformer
+cd ~/coltrain/transformer
 ../../venv/bin/python training/train.py
 ```
 

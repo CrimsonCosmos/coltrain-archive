@@ -60,7 +60,7 @@ All dependencies are pre-installed:
 If you prefer the command line:
 
 ```bash
-cd /Users/dylangehl/coltrain
+cd ~/coltrain
 source venv/bin/activate
 python coltrain_gui.py
 ```
@@ -90,7 +90,7 @@ python generate_live.py --tempo 120
 - Reinstall if needed: `brew install fluid-synth ffmpeg`
 
 **MIDI generation fails:**
-- Ensure training data exists: `ls /Users/dylangehl/augmented_dataset`
+- Ensure training data exists: `ls ~/augmented_dataset`
 - Check permissions on output directory
 
 ## Files

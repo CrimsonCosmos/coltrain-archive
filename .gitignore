@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.mid
+.DS_Store
+.ipynb_checkpoints/
+
+# AI assistant files
+CLAUDE.md
+.claude/
